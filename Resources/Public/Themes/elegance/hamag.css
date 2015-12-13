@@ -1,0 +1,162 @@
+
+body, .htmlarea-content-body {
+	background-color: rgb(241, 241, 241);/*dark red (switch .container to 241,241,241 then: rgb(95, 24, 25);*/
+	color: rgb(201, 91, 47);
+}
+
+/* Red color scheme.
+rgb(201, 91, 47)
+*/
+body,
+.basket-mini-product .minibutton
+,.mini-button
+,a
+,.aimeos a:link
+,.aimeos a:visited
+,.navbar-default .navbar-nav > li > a 
+,.catalog-detail-basic h1.name
+{
+	color: rgb(201, 91, 47);
+}
+
+a:hover
+,.navbar-default .navbar-nav > li > a:hover
+{
+	color: rgb(221, 111, 57);
+}
+
+.catalog-filter-tree
+,.catalog-filter-attribute
+,.catalog-filter-search
+,.basket-standard-coupon .coupon-new
+{
+	border-color: rgb(201, 91, 47);
+}
+
+
+.catalog-filter-search
+,.catalog-detail-basket .group
+,.aimeos .btn-action
+,.aimeos .standardbutton
+,.basket-standard-coupon .coupon-new
+{
+	background-color: rgb(201, 91, 47);
+}
+
+.catalog-filter-search:hover
+,.catalog-detail-basket .group:hover
+,.aimeos .btn-action:hover
+,.aimeos .standardbutton:hover
+,.basket-standard-coupon .coupon-new:hover
+{
+	background-color: rgb(211, 111, 57);
+}
+
+
+
+/* Fix topmost bar. */
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(255, 255, 255); /*rgb(51,51,51)*/
+	z-index: 999;
+}
+.navbar
+,.navbar-header
+{
+}
+/* Ensure all of content is visible. This setting depends on the height of the topbar, i.e. if .container is removed or not. */
+div#content {
+	margin-top: 65px;
+}
+
+/* Lessen height of top bar. */
+.basket-mini {
+	float: left;
+}
+
+/* Logo placement */
+.navbar-header-main .navbar-brand {
+	padding: 0;
+	display: block;
+	width: 78px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 999;
+}
+
+.navbar > .container .navbar-brand
+,.navbar-header-main .navbar-brand 
+{
+	margin: 0 0 0 -33px; /*-39px;*/
+}
+
+/* Clear vertical distance to topmost page edge. */
+.navbar-header-main .navbar-brand.navbar-brand-image {
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+.navbar-brand-image img
+,.navbar-header-main .navbar-brand.navbar-brand-image > img /*required for precedence in mobile/small form factor media view*/
+{
+
+	width: 78px;
+	height: auto;
+}
+
+
+.navbar-default {
+	border-color: rgb(45, 45, 45);
+	/*border-color: rgb(195, 195, 195);*/
+}
+
+header.navbar
+{
+	min-height: 41px; /* NOTE Synchronize with logo height / 2. */
+}
+/*header.navbar*/
+.navbar-header
+{
+	min-height: 40px; /* NOTE Synchronize with logo height / 2. - 1 */
+}
+.navbar-toggle
+{
+	margin-top: 4px;
+}
+
+.nav-default
+,.navbar-collapse
+{
+	border-bottom: 1px solid rgb(76, 28, 28);
+}
+
+,header.navbar > div
+{
+	border-bottom: 1px solid rgb(86, 38, 38);
+}
+
+
+.container {
+	box-shadow: 0 1px 0 #fff inset, 0 1px 2px rgba(0,0,0,.15);
+	padding: 15px;
+	background-color: #fff; /*#f1f1f1; == rgb(241)*/
+	margin-top: 25px;
+}
+
+
+.footer-section {
+	border-top: 1px solid rgb(43, 43, 43);
+	border-bottom: 1px solid rgb(17, 17, 17);
+	background-color: rgb(34,34,34);
+	
+}
+.meta-section {
+	border-top: 1px solid rgb(255, 63, 63);
+	background-color: rgb(51, 51, 51);
+}
+
+
+
