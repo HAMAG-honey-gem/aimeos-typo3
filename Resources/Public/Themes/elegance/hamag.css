@@ -2,6 +2,9 @@
 body, .htmlarea-content-body {
 	background-color: rgb(241, 241, 241);/*dark red (switch .container to 241,241,241 then: rgb(95, 24, 25);*/
 	color: rgb(201, 91, 47);
+	color: #E13838;
+	color: #e11;
+
 }
 
 /* Red color scheme.
@@ -17,18 +20,43 @@ body,
 ,.catalog-detail-basic h1.name
 {
 	color: rgb(201, 91, 47);
+	color: #e11;
 }
+.text 
+,.navbar-default .navbar-nav .open .dropdown-menu > li > a
+{
+	color: #111;
+	color: #555;
+}
+
+.navbar-main > li > a .bar 
+{
+	background-color: #555;
+	background-color: #58d; /* blue to refresh for a happier ensemble */ 
+}
+
 
 a:hover
 ,.navbar-default .navbar-nav > li > a:hover
+,.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+,.footer-section a:hover
 {
 	color: rgb(221, 111, 57);
+}
+
+.navbar-default .navbar-nav > .active > a
+,.navbar-default .navbar-nav > .active > a:hover
+,.navbar-default .navbar-nav > .active > a:focus
+{
+	color: rgb(51, 51, 51);
 }
 
 .catalog-filter-tree
 ,.catalog-filter-attribute
 ,.catalog-filter-search
 ,.basket-standard-coupon .coupon-new
+,.catalog-filter-tree > h2
+,.navbar-default .navbar-toggle .icon-bar
 {
 	border-color: rgb(201, 91, 47);
 }
@@ -39,8 +67,12 @@ a:hover
 ,.aimeos .btn-action
 ,.aimeos .standardbutton
 ,.basket-standard-coupon .coupon-new
+,.dropdown-menu > li > a:hover
+,.navbar-default .navbar-nav .open .drowdown-menu > li > a:hover
 {
 	background-color: rgb(201, 91, 47);
+	background-color: #E11;
+	
 }
 
 .catalog-filter-search:hover
@@ -50,6 +82,7 @@ a:hover
 ,.basket-standard-coupon .coupon-new:hover
 {
 	background-color: rgb(211, 111, 57);
+	background-color: #F22;
 }
 
 
@@ -62,19 +95,76 @@ a:hover
 	background-color: rgb(255, 255, 255); /*rgb(51,51,51)*/
 	z-index: 999;
 }
+
 .navbar
 ,.navbar-header
 {
 }
+.navbar > div
+,footer > section
+{
+
+/* controlled using .container
+	width: 74%;
+	margin: auto;
+*/
+}
+
+.navbar .container
+,footer .container
+{
+	padding: 0px;
+	margin-top: 0px;
+	box-shadow: 0px 0px 0px;
+	background-color: transparent;
+}
+
+
 /* Ensure all of content is visible. This setting depends on the height of the topbar, i.e. if .container is removed or not. */
 div#content {
 	margin-top: 65px;
 }
 
 /* Lessen height of top bar. */
-.basket-mini {
-	float: left;
+.basket-mini
+,section.locale-select
+,div.locale-select
+{
+/*
+	float: left; /*Results in not selectable in mobile view.
+	z-index: 100;
+*/
+	position: absolute;
+	z-index: 1000;
 }
+
+.basket-mini a
+{
+	background-position: left 1px;
+	background-size: 25px auto;
+}
+.basket-mini-product .minibutton
+{
+	margin: 2px 0;
+}
+.aimeos .minibutton
+{
+		
+}
+
+section.locale-select
+,div.locale-select
+{	
+	left: 50%;
+	margin-left: -200px;
+	font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif, "Liberation Sans";
+}
+/* general margin/padding indepent of font family size */
+.locale-select ul.select-menu ul
+{
+	padding-left: 0;
+}
+
 
 /* Logo placement */
 .navbar-header-main .navbar-brand {
@@ -90,7 +180,7 @@ div#content {
 .navbar > .container .navbar-brand
 ,.navbar-header-main .navbar-brand 
 {
-	margin: 0 0 0 -33px; /*-39px;*/
+	margin: 0 0 0 -41.5px; /*-33px; /*-39px;*/
 }
 
 /* Clear vertical distance to topmost page edge. */
@@ -103,18 +193,21 @@ div#content {
 ,.navbar-header-main .navbar-brand.navbar-brand-image > img /*required for precedence in mobile/small form factor media view*/
 {
 
-	width: 78px;
+	width: 83px;/*78px;*/
 	height: auto;
 }
 
 
 .navbar-default {
-	border-color: rgb(45, 45, 45);
+	border-color: rgb(255, 91, 41);
+	/*border-color: rgb(51, 51, 51); Use with 3D logo! */
 	/*border-color: rgb(195, 195, 195);*/
 }
 
 header.navbar
 {
+	filter: alpha(opacity=95);
+	opacity: .95;
 	min-height: 41px; /* NOTE Synchronize with logo height / 2. */
 }
 /*header.navbar*/
@@ -127,10 +220,10 @@ header.navbar
 	margin-top: 4px;
 }
 
-.nav-default
-,.navbar-collapse
+.navbar-collapse
 {
-	border-bottom: 1px solid rgb(76, 28, 28);
+	border-bottom: 1px solid rgb(245, 245, 245);
+	/*border-bottom: 1px solid rgb(76, 28, 28); Use with 3d logo. */
 }
 
 ,header.navbar > div
@@ -147,16 +240,55 @@ header.navbar
 }
 
 
+.basket-standard-coupon .coupon-new .standardbutton
+{
+	min-height: 1.5em; /* To have more area to press. */
+}
+
+.error-list 
+{
+	position: fixed;
+	width: 100%; /* Else depending on media has to be set. */
+	left: 0;
+	
+	/*top: 56px; /* Shall appear as attched to the HAMAG sign. */
+	
+	top: 100%;
+	height: 100px;
+	margin-top: -100px;
+}
+
 .footer-section {
 	border-top: 1px solid rgb(43, 43, 43);
 	border-bottom: 1px solid rgb(17, 17, 17);
 	background-color: rgb(34,34,34);
+	/*box-shadow: 0px 0px 2px rgb(255, 255, 255) inset;*/
 	
 }
 .meta-section {
 	border-top: 1px solid rgb(255, 63, 63);
 	background-color: rgb(51, 51, 51);
+	/*padding-top: 0;*/
 }
+
+
+table td
+{
+	min-width: 15em;
+}
+
+
+/* TODO all h1 tags but .first-headline may be styled as an outset banner using ::before.
+h1:not(.first-line)
+{	
+	content: "";
+}
+
+.hint::before, .hint:before
+{
+	content: "Hinweis";
+}
+*/
 
 
 
