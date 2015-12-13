@@ -272,7 +272,8 @@ header.navbar
 }
 
 
-table td
+/* Prevent stretching top mini shopping cart. */
+.container table td
 {
 	min-width: 15em;
 }
@@ -289,6 +290,10 @@ h1:not(.first-line)
 	content: "Hinweis";
 }
 */
+
+
+
+
 
 
 
