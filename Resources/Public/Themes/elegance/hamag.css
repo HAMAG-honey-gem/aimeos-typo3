@@ -39,11 +39,17 @@ body,
 
 a:hover
 ,.navbar-default .navbar-nav > li > a:hover
-,.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
 ,.footer-section a:hover
 {
 	color: rgb(221, 111, 57);
 }
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+{
+	color: #FFF;
+}
+
+
 
 .navbar-default .navbar-nav > .active > a
 ,.navbar-default .navbar-nav > .active > a:hover
@@ -75,6 +81,19 @@ a:hover
 	background-color: #E11;
 	
 }
+
+/* Use transparent when hover action is nested which leads to e.g.
+	darker background on button text when a wrapping .group
+	is hovered but not the text.
+*/
+.catalog-detail-basket .group .btn-action
+,.catalog-detail-basket .group .standardbutton
+,.catalog-detail-basket .group:hover .btn-action
+,.catalog-detail-basket .group:hover .standardbutton
+{
+	background-color: transparent;
+}
+
 
 .catalog-filter-search:hover
 ,.catalog-detail-basket .group:hover
