@@ -7,6 +7,10 @@ body, .htmlarea-content-body {
 
 }
 
+.container p
+{
+	color: #555;
+}
 /* Red color scheme.
 rgb(201, 91, 47)
 */
