@@ -4,7 +4,13 @@ body, .htmlarea-content-body {
 	color: rgb(201, 91, 47);
 	color: #E13838;
 	color: #e11;
-
+}
+body
+/*,.carousel-inner .item > div > div*/
+{
+	/* Kali Linux background: */
+/*	background-image: url(https://www.kali.org/wp-content/uploads/revslider/last/background-1245.png);
+*/
 }
 
 .container p
@@ -341,4 +347,9 @@ h1:not(.first-line)
 
 
 
-
+.carousel-inner .item > div > div
+{
+/*	color: #fff;
+	padding: 1em 2em;
+*/
+}
