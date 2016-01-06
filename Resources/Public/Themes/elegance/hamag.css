@@ -413,3 +413,24 @@ h1:not(.first-line)
 */
 }
 
+
+.checkout-standard-summary-option-terms label
+{
+	font-weight: normal;
+}
+
+
+.catalog-stage-navigator a.prev:before
+{
+    content: "\003C \0000a0 ";/*\00AB \a0 = non-breaking space &nbsp;*/
+    white-space: pre;
+}
+
+
+.catalog-stage-navigator a.next:after
+{
+    content: "\0000a0 \003E";/*\00BB \a0 = non-breaking space &nbsp;*/
+    white-space: pre;
+}
+
+
