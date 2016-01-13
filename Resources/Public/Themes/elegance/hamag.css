@@ -210,8 +210,11 @@ section.locale-select
 ,div.locale-select
 ,div.tx-srlanguagemenu
 {
+	/*
 	left: 50%;
 	margin-left: -200px;
+	*/
+	margin-left: 150px;
 	font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif, "Liberation Sans";
 }
 /* general margin/padding indepent of font family size */
