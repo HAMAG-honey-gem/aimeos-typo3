@@ -79,6 +79,18 @@ a:hover
 	color: rgb(51, 51, 51);
 }
 
+/* navigation icons */
+ul.nav a[title="My account"]
+{
+    font-size: 7pt;
+    vertical-align: bottom;
+    background: transparent url("media/account.png") no-repeat scroll center 0;
+    height: 19pt !important;
+    padding-top: 9pt;
+}
+
+
+
 .catalog-filter-tree
 ,.catalog-filter-attribute
 ,.catalog-filter-search
