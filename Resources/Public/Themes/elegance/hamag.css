@@ -20,6 +20,17 @@ body
 /* Red color scheme.
 rgb(201, 91, 47)
 */
+.footer-section h1
+, .footer-section .h1
+{
+	text-shadow:0px 1px 6px #777;
+}
+ .footer-section h1:hover
+,.footer-section .h1:hover
+{
+	text-shadow:0px 1px 6px rgb(255, 255, 255);
+}
+
 body,
 .basket-mini-product .minibutton
 ,.mini-button
@@ -82,14 +93,27 @@ a:hover
 /* navigation icons */
 ul.nav a[title="My account"]
 {
-    font-size: 7pt;
-    vertical-align: bottom;
-    background: transparent url("media/account.png") no-repeat scroll center 0;
-    height: 19pt !important;
-    padding-top: 9pt;
+	transition: opacity 0.6s ease-in-out 0s;
+	font-size: 7pt;
+	vertical-align: bottom;
+	background: transparent url("media/account.png") no-repeat scroll center 1pt;
+	height: 20pt !important;
+	padding-top: 10pt;
+	opacity: .75;
+	filter: alpha(opacity=75);
+}
+
+ul.nav a[title="My account"]:hover
+{
+	opacity: .99;
+	filter: alpha(opacity=99);
 }
 
 
+.carousel-indicators, .carousel-control {
+    transition: opacity 0.6s ease-in-out 0s;
+    opacity: 0.15;
+}
 
 .catalog-filter-tree
 ,.catalog-filter-attribute
