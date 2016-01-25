@@ -20,6 +20,11 @@ body
 /* Red color scheme.
 rgb(201, 91, 47)
 */
+
+.navbar-default .navbar-toggle .icon-bar {
+    	background-color: #fff;
+}
+
 .footer-section h1
 , .footer-section .h1
 {
