@@ -1,4 +1,90 @@
 
+@media /*only */screen and (min-width: 1460px)
+{
+    /* categories globally visible left side */
+    .catalog-filter-tree
+    {
+	position: fixed;
+        left: 0;
+        top: 20pt;
+    }
+
+    .catalog-filter-tree > ul
+    ,.catalog-filter-attribute > ul
+    ,.catalog-filter-attribute > div
+    {
+
+        font-size: 10pt;
+	display: block;
+        height: auto;
+        overflow: visible;
+        
+    }
+
+    .catalog-filter-tree ul
+    {
+        padding-left: 0;
+    }
+
+    .catalog-filter-tree > h2
+    ,.catalog-filter-attribute > h2
+    {
+        margin-bottom: 0;
+    }
+
+    /* filters globally visible right side */
+    .catalog-filter-attribute
+    {
+        position: fixed;
+        right: 0;
+        top: 20pt;
+        min-width: 150px;
+    }
+    .catalog-filter-attribute fieldset
+    {
+        display: block;
+        min-width: 150px;
+    }
+    .catalog-filter-attribute > h2
+    {
+        float: left;
+    }
+    .catalog-filter-attribute .attribute-lists .attr-list
+    {
+        height: auto;
+    }
+
+/* navigation icons */
+ul.nav a[title="My account"]
+{
+	font-size: 7pt;
+	background: transparent url("media/account.png") no-repeat scroll center 1pt;
+	height: 20pt !important;
+	padding-top: 10pt;
+}
+
+
+
+} /* min-width: 800px -END */
+
+
+
+
+
+
+@media /*only */screen and (max-width: 800px)
+{
+
+/* navigation icons */
+    ul.nav a[title="My account"]
+    {
+	background: transparent url("media/account.png") no-repeat scroll center bottom;
+    }
+
+
+}
+
+
 body, .htmlarea-content-body {
 	background-color: rgb(241, 241, 241);/*dark red (switch .container to 241,241,241 then: rgb(95, 24, 25);*/
 	color: rgb(201, 91, 47);
@@ -99,11 +185,7 @@ a:hover
 ul.nav a[title="My account"]
 {
 	transition: opacity 0.6s ease-in-out 0s;
-	font-size: 7pt;
 	vertical-align: bottom;
-	background: transparent url("media/account.png") no-repeat scroll center 1pt;
-	height: 20pt !important;
-	padding-top: 10pt;
 	opacity: .75;
 	filter: alpha(opacity=75);
 }
