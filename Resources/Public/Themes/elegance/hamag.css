@@ -1,6 +1,29 @@
 
 @media /*only */screen and (min-width: 1460px)
 {
+    .container
+    {
+        width: 1160px;
+    }
+}
+
+@media /*only */screen and (min-width: 1200px)
+{
+    .container
+    {
+    }
+}
+
+/*@media screen and (min-width: 1460px)*/
+
+/*@media screen and (min-width: 1460px)*/
+@media /*only */screen and (min-width: 992px)
+{
+    .container
+    {
+        width: 960px;
+    }
+
     /* categories globally visible left side */
     .catalog-filter-tree
     {
@@ -25,6 +48,12 @@
     {
         padding-left: 0;
     }
+
+    .catalog-filter-tree li
+    {
+        padding-left: 3%;
+    }
+
 
     .catalog-filter-tree > h2
     ,.catalog-filter-attribute > h2
@@ -65,14 +94,14 @@ ul.nav a[title="My account"]
 
 
 
-} /* min-width: 800px -END */
+} /* min-width: 992px -END */
 
 
 
 
 
 
-@media /*only */screen and (max-width: 800px)
+@media /*only */screen and (max-width: 992px)
 {
 
 /* navigation icons */
@@ -587,3 +616,11 @@ h1:not(.first-line)
 }
 
 
+
+/* catalog filter search reset icon: */
+.catalog-filter-search div.pp_default .pp_close {
+    background: transparent url("../../typo3conf/ext/aimeos/Resources/Public/Themes/elegance/media/prettyPhoto/default/sprite.png") no-repeat scroll -4px -4px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
