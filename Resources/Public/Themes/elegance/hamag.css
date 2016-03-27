@@ -633,8 +633,8 @@ h1:not(.first-line)
 
 /* catalog filter search reset icon: */
 .catalog-filter-search div.pp_default .pp_close {
-    background: transparent url("media/prettyPhoto/default/sprite.png") no-repeat scroll -4px -4px;
+    background: transparent url("media/prettyPhoto/default/sprite.png") no-repeat scroll -8px -7px;
     cursor: pointer;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 11px;
 }
