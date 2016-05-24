@@ -638,3 +638,12 @@ h1:not(.first-line)
     width: 10px;
     height: 11px;
 }
+
+
+
+
+div.attribute-lists legend
+{
+    background: none repeat scroll 0% 0% white;
+    width: 100%;
+}
