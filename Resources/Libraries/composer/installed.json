@@ -1,0 +1,382 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.23",
+        "version_normalized": "1.0.23.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+            "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-01-27 12:54:22",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-05-04 20:22:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "zendframework/zend-diactoros",
+        "version": "1.3.3",
+        "version_normalized": "1.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-diactoros.git",
+            "reference": "4d54fde709664562eb63356f0250d527824d05de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/4d54fde709664562eb63356f0250d527824d05de",
+            "reference": "4d54fde709664562eb63356f0250d527824d05de",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "~1.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.6",
+            "squizlabs/php_codesniffer": "^2.3.1"
+        },
+        "time": "2016-01-04 21:37:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3-dev",
+                "dev-develop": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Diactoros\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "description": "PSR HTTP Message implementations",
+        "homepage": "https://github.com/zendframework/zend-diactoros",
+        "keywords": [
+            "http",
+            "psr",
+            "psr-7"
+        ]
+    },
+    {
+        "name": "aimeos/aimeos-core",
+        "version": "2016.03.1",
+        "version_normalized": "2016.03.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aimeos/aimeos-core.git",
+            "reference": "c84c6ac7f8be5f16f7409bc6fd8e94d3e3296198"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/c84c6ac7f8be5f16f7409bc6fd8e94d3e3296198",
+            "reference": "c84c6ac7f8be5f16f7409bc6fd8e94d3e3296198",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-dom": "*",
+            "ext-fileinfo": "*",
+            "ext-gd": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-pcre": "*",
+            "ext-pdo": "*",
+            "ext-pdo_mysql": "*",
+            "ext-zip": "*",
+            "php": ">=5.3.3",
+            "psr/http-message": "~1.0"
+        },
+        "require-dev": {
+            "phing/phing": "~2.4",
+            "phpunit/phpunit": "~3.7||~4.0||~5.0",
+            "satooshi/php-coveralls": "dev-master",
+            "squizlabs/php_codesniffer": "~1.0"
+        },
+        "suggest": {
+            "apigen/apigen": "Required for generating the API documentation"
+        },
+        "time": "2016-03-09 12:12:28",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Aimeos\\MW\\": "lib/mwlib/src/MW/",
+                "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
+                "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
+                "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
+                "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/",
+                "Aimeos\\Controller\\JsonAdm\\": "controller/jobs/src/Controller/JsonAdm/",
+                "Aimeos\\Controller\\ExtJS\\": "controller/extjs/src/Controller/ExtJS/",
+                "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
+                "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
+                "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+                "Aimeos\\": "."
+            },
+            "classmap": [
+                "lib/mwlib/src",
+                "lib/mshoplib/src",
+                "controller/common/src",
+                "controller/frontend/src",
+                "controller/jsonadm/src",
+                "controller/extjs/src",
+                "controller/jobs/src",
+                "client/html/src",
+                "admin/jqadm/src",
+                "Bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "description": "Full-featured e-commerce framework for high performance web shops",
+        "homepage": "https://aimeos.org/",
+        "keywords": [
+            "e-commerce",
+            "market place",
+            "portal",
+            "shop"
+        ]
+    },
+    {
+        "name": "aimeos/ai-gettext",
+        "version": "2016.01.1",
+        "version_normalized": "2016.01.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aimeos/ai-gettext.git",
+            "reference": "072ba387912e060dfd0e96092ff17f1ee9813488"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/072ba387912e060dfd0e96092ff17f1ee9813488",
+            "reference": "072ba387912e060dfd0e96092ff17f1ee9813488",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "time": "2016-03-09 14:06:53",
+        "type": "aimeos-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Aimeos\\MW\\": "lib/mwlib/src/MW/"
+            },
+            "classmap": [
+                "lib/custom/src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "description": "Aimeos Gettext extension",
+        "homepage": "https://aimeos.org",
+        "keywords": [
+            "aimeos",
+            "extension",
+            "gettext",
+            "performance"
+        ]
+    },
+    {
+        "name": "aimeos/ai-typo3",
+        "version": "2016.03.1",
+        "version_normalized": "2016.03.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aimeos/ai-typo3.git",
+            "reference": "3004abdbd46062d3e332bc809db0474ff3a2e09a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aimeos/ai-typo3/zipball/3004abdbd46062d3e332bc809db0474ff3a2e09a",
+            "reference": "3004abdbd46062d3e332bc809db0474ff3a2e09a",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "php": ">=5.3.3",
+            "zendframework/zend-diactoros": "~1.0"
+        },
+        "require-dev": {
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "time": "2016-02-29 22:57:12",
+        "type": "aimeos-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Aimeos\\MShop\\": "lib/custom/src/MShop",
+                "Aimeos\\MW\\": "lib/custom/src/MW"
+            },
+            "classmap": [
+                "lib/custom/src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "description": "TYPO3 adapter for Aimeos web shops and e-commerce solutions",
+        "homepage": "https://aimeos.org/TYPO3",
+        "keywords": [
+            "adapter",
+            "aimeos",
+            "cms",
+            "e-commerce",
+            "shop",
+            "typo3"
+        ]
+    }
+]
