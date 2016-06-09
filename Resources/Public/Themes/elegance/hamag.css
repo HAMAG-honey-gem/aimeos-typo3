@@ -17,6 +17,10 @@
 /*@media screen and (min-width: 1460px)*/
 @media /*only */screen and (min-width: 1360px)
 {
+    section[id="p14"] .container
+    {
+        width: 1160px;
+    }
     .container
     {
         width: 960px;
@@ -25,6 +29,10 @@
 
 @media /*only */screen and (min-width: 1172px)
 {
+    section[id="p14"] .container
+    {
+        width: 960px;
+    }
     .container
     {
         width: 760px;
@@ -33,6 +41,10 @@
 
 @media /*only */screen and (min-width: 992px)
 {
+    section[id="ip14"] .container
+    {
+        width: 760px;
+    }
     .container
     {
         width: 66%;
