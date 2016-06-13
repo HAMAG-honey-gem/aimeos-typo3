@@ -359,6 +359,8 @@ ul.nav li:hover
 .carousel-inner > .item
 {
 	color: #111;
+	height: auto;
+	min-height: 400px;
 }
 .carousel .carousel-inner > .item
 {
