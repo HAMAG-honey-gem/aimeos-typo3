@@ -1,113 +1,113 @@
 
 @media /*only */screen and (min-width: 1460px)
 {
-    .container
-    {
-        width: 1160px;
-    }
+	.container
+	{
+		width: 1160px;
+	}
 }
 
 @media /*only */screen and (min-width: 1200px)
 {
-    .container
-    {
-    }
+	.container
+	{
+	}
 }
 
 /*@media screen and (min-width: 1460px)*/
 @media /*only */screen and (min-width: 1360px)
 {
-    section[id="p14"] .container
-    {
-        width: 1160px;
-    }
-    .container
-    {
-        width: 960px;
-    }
+	section[id="p14"] .container
+	{
+		width: 1160px;
+	}
+	.container
+	{
+		width: 960px;
+	}
 }
 
 @media /*only */screen and (min-width: 1172px)
 {
-    section[id="p14"] .container
-    {
-        width: 960px;
-    }
-    .container
-    {
-        width: 760px;
-    }
+	section[id="p14"] .container
+	{
+		width: 960px;
+	}
+	.container
+	{
+		width: 760px;
+	}
 }
 
 @media /*only */screen and (min-width: 992px)
 {
-    section[id="ip14"] .container
-    {
-        width: 760px;
-    }
-    .container
-    {
-        width: 66%;
-    }
+	section[id="ip14"] .container
+	{
+		width: 760px;
+	}
+	.container
+	{
+		width: 66%;
+	}
 
-    /* categories globally visible left side */
-    .catalog-filter-tree
-    {
+	/* categories globally visible left side */
+	.catalog-filter-tree
+	{
 	position: fixed;
-        left: 0;
-        top: 20pt;
-    }
+		left: 0;
+		top: 20pt;
+	}
 
-    .catalog-filter-tree > ul
-    ,.catalog-filter-attribute > ul
-    ,.catalog-filter-attribute > div
-    {
+	.catalog-filter-tree > ul
+	,.catalog-filter-attribute > ul
+	,.catalog-filter-attribute > div
+	{
 
-        font-size: 10pt;
+		font-size: 10pt;
 	display: block;
-        height: auto;
-        overflow: visible;
-        
-    }
+		height: auto;
+		overflow: visible;
 
-    .catalog-filter-tree ul
-    {
-        padding-left: 0;
-    }
+	}
 
-    .catalog-filter-tree li
-    {
-        padding-left: 3%;
-    }
+	.catalog-filter-tree ul
+	{
+		padding-left: 0;
+	}
+
+	.catalog-filter-tree li
+	{
+		padding-left: 3%;
+	}
 
 
-    .catalog-filter-tree > h2
-    ,.catalog-filter-attribute > h2
-    {
-        margin-bottom: 0;
-    }
+	.catalog-filter-tree > h2
+	,.catalog-filter-attribute > h2
+	{
+		margin-bottom: 0;
+	}
 
-    /* filters globally visible right side */
-    .catalog-filter-attribute
-    {
-        position: fixed;
-        right: 0;
-        top: 20pt;
-        width: 214px;
-    }
-    .catalog-filter-attribute fieldset
-    {
-        display: block;
-        min-width: 150px;
-    }
-    .catalog-filter-attribute > h2
-    {
-        float: left;
-    }
-    .catalog-filter-attribute .attribute-lists .attr-list
-    {
-        height: auto;
-    }
+	/* filters globally visible right side */
+	.catalog-filter-attribute
+	{
+		position: fixed;
+		right: 0;
+		top: 20pt;
+		width: 214px;
+	}
+	.catalog-filter-attribute fieldset
+	{
+		display: block;
+		min-width: 150px;
+	}
+	.catalog-filter-attribute > h2
+	{
+		float: left;
+	}
+	.catalog-filter-attribute .attribute-lists .attr-list
+	{
+		height: auto;
+	}
 
 
 
@@ -177,10 +177,10 @@ ul.nav > li:first-child+li+li a
 {
 
 /* navigation icons */
-    ul.nav a[title="My account"]
-    {
+	ul.nav a[title="My account"]
+	{
 	background: transparent url("media/account.png") no-repeat scroll center bottom;
-    }
+	}
 
 
 }
@@ -209,7 +209,7 @@ rgb(201, 91, 47)
 */
 
 .navbar-default .navbar-toggle .icon-bar {
-    	background-color: #fff;
+	background-color: #fff;
 }
 
 .footer-section h1
@@ -229,25 +229,25 @@ body,
 ,a
 ,.aimeos a:link
 ,.aimeos a:visited
-,.navbar-default .navbar-nav > li > a 
+,.navbar-default .navbar-nav > li > a
 ,.catalog-detail-basic h1.name
 ,.footer-section a
 {
 	color: rgb(201, 91, 47);
 	color: #e11;
 }
-.text 
+.text
 ,.navbar-default .navbar-nav .open .dropdown-menu > li > a
 {
 	color: #111;
 	color: #555;
 }
 
-.navbar-main > li > a .bar 
+.navbar-main > li > a .bar
 {
 	background-color: #555;
-	background-color: #58d; /* blue to refresh for a happier ensemble */ 
-        /* rgb(35, 136, 221) */
+	background-color: #58d; /* blue to refresh for a happier ensemble */
+		/* rgb(35, 136, 221) */
 }
 
 .navbar-default .navbar-nav .active.open > .dropdown-menu li.active > a
@@ -258,7 +258,7 @@ body,
 , .dropdown-menu > .active > a:hover
 , .dropdown-menu > .active > a:focus
 {
-    background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
 }
 
 a:hover
@@ -299,8 +299,8 @@ ul.nav li:hover
 
 
 .carousel-indicators, .carousel-control {
-    transition: opacity 0.6s ease-in-out 0s;
-    opacity: 0.15;
+	transition: opacity 0.6s ease-in-out 0s;
+	opacity: 0.15;
 }
 
 .carousel-control:hover
@@ -330,7 +330,7 @@ ul.nav li:hover
 {
 	background-color: rgb(201, 91, 47);
 	background-color: #E11;
-	
+
 }
 
 /* Use transparent when hover action is nested which leads to e.g.
@@ -433,7 +433,7 @@ div#content {
 }
 .aimeos .minibutton
 {
-		
+
 }
 
 section.locale-select
@@ -454,20 +454,20 @@ section.locale-select
 }
 
 
-div.tx-srlanguagemenu div 
+div.tx-srlanguagemenu div
 {
-    display: inline;
-    margin: 5px;
-    float: left;
+	display: inline;
+	margin: 5px;
+	float: left;
 }
 div.tx-srlanguagemenu div.CUR img
 {
-    border: 1px solid #E11;
+	border: 1px solid #E11;
 }
 div.tx-srlanguagemenu div.INACT img
 {
-    filter: alpha(opacity=70);
-    opacity: .7;
+	filter: alpha(opacity=70);
+	opacity: .7;
 }
 
 
@@ -484,7 +484,7 @@ div.tx-srlanguagemenu div.INACT img
 }
 
 .navbar > .container .navbar-brand
-,.navbar-header-main .navbar-brand 
+,.navbar-header-main .navbar-brand
 {
 	margin: 0 0 0 -41.5px; /*-33px; /*-39px;*/
 }
@@ -551,14 +551,14 @@ header.navbar
 	min-height: 1.5em; /* To have more area to press. */
 }
 
-.aimeos .error-list 
+.aimeos .error-list
 {
 	position: fixed;
 	width: 100%; /* Else depending on media has to be set. */
 	left: 0;
-	
+
 	/*top: 56px; /* Shall appear as attched to the HAMAG sign. */
-	
+
 	top: 100%;
 	height: 100px;
 	margin-top: -100px;
@@ -597,7 +597,7 @@ header.navbar
 	border-bottom: 1px solid rgb(17, 17, 17);
 	background-color: rgb(0,0,0);
 	/*box-shadow: 0px 0px 2px rgb(255, 255, 255) inset;*/
-	
+
 }
 .meta-section {
 	border-top: 1px solid rgb(255, 63, 63);
@@ -624,7 +624,7 @@ header.navbar
 
 /* TODO all h1 tags but .first-headline may be styled as an outset banner using ::before.
 h1:not(.first-line)
-{	
+{
 	content: "";
 }
 
@@ -656,8 +656,8 @@ h1:not(.first-line)
 .catalog-stage-navigator a.prev:before,
 .catalog-stage-navigator a.prev:before
 {
-    content: "\003C \0000a0 ";/*\00AB \a0 = non-breaking space &nbsp;*/
-    white-space: pre;
+	content: "\003C \0000a0 ";/*\00AB \a0 = non-breaking space &nbsp;*/
+	white-space: pre;
 }
 
 
@@ -667,8 +667,8 @@ h1:not(.first-line)
 .catalog-stage-navigator a.next:after,
 .catalog-stage-navigator a.next::after
 {
-    content: "\0000a0 \003E";/*\00BB \a0 = non-breaking space &nbsp;*/
-    white-space: pre;
+	content: "\0000a0 \003E";/*\00BB \a0 = non-breaking space &nbsp;*/
+	white-space: pre;
 }
 
 
@@ -676,25 +676,25 @@ h1:not(.first-line)
 .catalog-filter-attribute legend:before,
 .catalog-filter-attribute legend::before
 {
-    content: "\00B7 \0000a0";/*~ = \007E \00BB \a0 = non-breaking space &nbsp;*/
-    white-space: pre;
+	content: "\00B7 \0000a0";/*~ = \007E \00BB \a0 = non-breaking space &nbsp;*/
+	white-space: pre;
 }
 
 
 .catalog-filter-attribute .attribute-selected .selected-all::after
 , .catalog-filter-attribute .attribute-selected .attr-name::after
 {
-    content: " \00B7";
+	content: " \00B7";
 }
 
 
 
 /* catalog filter search reset icon: */
 .catalog-filter-search div.pp_default .pp_close {
-    background: transparent url("media/prettyPhoto/default/sprite.png") no-repeat scroll -8px -7px;
-    cursor: pointer;
-    width: 10px;
-    height: 11px;
+	background: transparent url("media/prettyPhoto/default/sprite.png") no-repeat scroll -8px -7px;
+	cursor: pointer;
+	width: 10px;
+	height: 11px;
 }
 
 
@@ -702,6 +702,6 @@ h1:not(.first-line)
 
 div.attribute-lists legend
 {
-    background: none repeat scroll 0% 0% white;
-    width: 100%;
+	background: none repeat scroll 0% 0% white;
+	width: 100%;
 }
