@@ -293,6 +293,7 @@ a:hover
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
 {
 	color: #FFF;
+	background-color: #000;
 }
 
 
