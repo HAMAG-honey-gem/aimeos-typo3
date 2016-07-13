@@ -673,6 +673,20 @@ h1:not(.first-line)
 */
 }
 
+/* Prevent a deactivated look: */
+.aimeos .form-list input:placeholder
+{
+	font-style: italic;
+}
+.checkout-standard .form-list input
+{
+	background-color: rgb(255, 255, 255);
+}
+.checkout-standard .form-list select
+,.checkout-standard .form-list .error select
+{
+	background-color: inherit;
+}
 
 .checkout-standard-summary-option-terms label
 {
