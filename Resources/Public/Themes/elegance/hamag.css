@@ -648,6 +648,11 @@ header.navbar
 	min-width: 15em;
 }
 
+/* Prevent half cut text height of short description in catalog. */
+.catalog-list .text-list .text-item
+{
+	height: 4.2rem;
+}
 
 /* TODO all h1 tags but .first-headline may be styled as an outset banner using ::before.
 h1:not(.first-line)
