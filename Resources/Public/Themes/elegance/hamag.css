@@ -746,3 +746,10 @@ div.attribute-lists legend
 	background: none repeat scroll 0% 0% white;
 	width: 100%;
 }
+
+
+div.stock
+{
+	visibility: hidden;
+}
+
