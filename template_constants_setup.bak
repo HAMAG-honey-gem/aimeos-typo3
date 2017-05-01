@@ -1,3 +1,5 @@
+# CONSTANTS
+
 page.theme.copyright.enable = 0
 page.theme.breadcrumb = 0
 
@@ -19,10 +21,19 @@ plugin.bootstrap_package.settings.less.container-tablet = (730px + @grid-gutter-
 plugin.bootstrap_package.settings.less.container-tablet = (740px + @grid-gutter-width)
 
 
+
+
+# SETUP
+
+defaults.pages.url_scheme = 2
+
 config {
   #baseURL = http://hamag-maschinenbau.de/
+  # Clear base URL:
+  baseURL >
+  #absRefPrefix = auto
   absRefPrefix = /hamag/
-  absRefPrefix = http://hamag-maschinenbau.de/
+  absRefPrefix = https://hamag-maschinenbau.de/
 }
 
 #config.additionalHeaders = Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'
@@ -64,7 +75,7 @@ config.typolinkLinkAccessRestrictedPages_addParams = &return_url=###RETURN_URL##
 
 page.shortcutIcon = fileadmin/aimeos_dist/favicon.ico
 
-plugin.tx_aimeos.settings.client.html.catalog.detail.standard.subparts {
+plugin.tx_aimeos.settings.client.html.catalog.detail.default.subparts {
  0 = image
  1 = basic
  2 = basket
@@ -76,7 +87,7 @@ plugin.tx_aimeos.settings.client.html.catalog.detail.standard.subparts {
  8 = bought
  9 = seen
 }
-plugin.tx_aimeos.settings.client.html.catalog.detail.image.standard.template-body = catalog/detail/image-body-bottom.html
+plugin.tx_aimeos.settings.client.html.catalog.detail.image.default.template-body = catalog/detail/image-body-bottom.html
 plugin.tx_aimeos.settings.client.html.catalog.detail.basket.selection.color = radio
 plugin.tx_aimeos.settings.client.html.catalog.detail.basket.selection.length = radio
 plugin.tx_aimeos.settings.client.html.catalog.detail.basket.selection.width = radio
@@ -139,9 +150,9 @@ plugin.tx_aimeos.settings.client.html.checkout.standard.address.states = {
     'US' = {
         'CA' = 'California'
         'NY' = 'New York'
-    
+
     },
-    
+
 }
 
 
@@ -1145,3 +1156,4 @@ plugin.tx_aimeos.settings.client.html.checkout.standard.address.states = {
          # Zimbabwe
 
      }
+
