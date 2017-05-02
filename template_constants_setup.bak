@@ -25,7 +25,7 @@ plugin.bootstrap_package.settings.less.container-tablet = (740px + @grid-gutter-
 
 # SETUP
 
-defaults.pages.url_scheme = 2
+TCAdefaults.pages.url_scheme = 2
 
 config {
   #baseURL = http://hamag-maschinenbau.de/
@@ -55,6 +55,7 @@ plugin.tx_aimeos.settings.client.html.common.format.seperator1000 = ,
    config.sys_language_uid = 0
    plugin.tx_aimeos.settings.client.html.common.format.seperatorDecimal = .
    plugin.tx_aimeos.settings.client.html.common.format.seperator1000 = ,
+   config.metaCharset = utf-8
 #[else]
 [globalVar = GP:L=43]
    config.language = de
@@ -140,19 +141,29 @@ lib.language >
 
 
 
-plugin.tx_aimeos.settings.client.html.checkout.standard.address.countries = {
- 1 = 'DE'
- 2 = 'US'
-}
 
 
-plugin.tx_aimeos.settings.client.html.checkout.standard.address.states = {
-    'US' = {
-        'CA' = 'California'
-        'NY' = 'New York'
-
+plugin.tx_aimeos.settings.client.html.checkout.standard.address.states {
+    'DE' = {
+        'BW' = 'Baden-Württemberg'
+        'BY' = 'Bayern'
+        'BE' = 'Berlin'
+        'BB' = 'Brandenburg'
+        'HB' = 'Bremen'
+        'HH' = 'Hamburg'
+        'HE' = 'Hessen'
+        'MV' = 'Mecklenburg-Vorpommern'
+        'NI' = 'Niedersachsen'
+        'NW' = 'Nordrhein-Westfalen'
+        'RP' = 'Rheinland-Pfalz'
+        'SL' = 'Saarland'
+        'SN' = 'Sachsen'
+        'ST' = 'Sachsen-Anhalt'
+        'SH' = 'Schleswig-Holstein'
+        'TH' = 'Thüringen'
+  
     },
-
+    
 }
 
 
