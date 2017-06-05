@@ -821,3 +821,21 @@ div.stock
 	background-color: rgb(0,0,0);
 }
 
+.aimeos .suggest-item:focus
+,.aimeos .suggest-item:hover
+{
+	color: black;
+}
+
+.pswp__ui--fit .pswp__top-bar
+, .pswp__ui--fit .pswp__caption
+{
+	background-color: rgb(0,0,0);
+}
+
+
+.pswp__button--arrow--left:before
+, .pswp__button--arrow--right:before
+{
+	background-color: rgb(238, 17, 17);
+}
