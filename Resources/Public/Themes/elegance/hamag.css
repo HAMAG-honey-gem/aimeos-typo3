@@ -1,4 +1,20 @@
 
+/* Override ext/bootstrap_package/Resources/Public/Css/theme.css */
+.carousel-control.left
+,.carousel-control.right
+{
+	background-image: none;
+}
+
+@media /*only */screen and (max-width: 760px)
+{
+	div.carousel div.item + div.item img
+	{
+		float: none !important;
+	}
+}
+
+
 @media /*only */screen and (min-width: 1460px)
 {
 	.container
