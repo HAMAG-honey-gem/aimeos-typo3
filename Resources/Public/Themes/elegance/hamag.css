@@ -154,7 +154,7 @@ ul.nav > li:first-child a
 
 ul.nav > li:first-child
 {
-	background: transparent url("media/wasp_nest_freed_red_icon.png") no-repeat scroll center 8pt / 10pt; /*6pt / 10pt*/
+	background: transparent url("media/honeycomb_mini.png") no-repeat scroll center 8pt / 10pt; /*6pt / 10pt*/
 }
 
 ul.nav > li:first-child ul.dropdown-menu a
