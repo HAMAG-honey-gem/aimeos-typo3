@@ -153,22 +153,29 @@ ul.nav > li:first-child a
 	background-attachment: scroll;
 	background-color: transparent;
 	background-image: url("media/bee.png");
-	background-position: 10pt 5pt;
+	background-position: 0px 0px;
 	background-repeat: no-repeat;
-	background-size: 30pt;
+	background-size: 50px;
 	font-size: 7pt;
 	height: 20pt !important;
 	padding-top: 10pt;
 }
+ul.nav > li:first-child a:hover
+{
+	background-size: 100px;
+	background-position: 0px 0px;
+}
 
 ul.nav > li:first-child
 {
-	background: transparent url("media/honeycomb_part_mini.png") no-repeat scroll center 5px / 47px;
+	transition: background-position 1s;
+	background: transparent url("media/honeycomb_part_mini.png") no-repeat scroll center 15px / 40px;
 }
 ul.nav > li:first-child:hover
 ,ul.nav > li:first-child.active
 {
-	background-position: center -29px;
+	background-position: center -17px;
+	background-size: 40px;
 }
 
 ul.nav > li:first-child ul.dropdown-menu a
@@ -176,14 +183,17 @@ ul.nav > li:first-child ul.dropdown-menu a
 	background-attachment: scroll;
 	background-color: transparent;
 	background-image: url("media/bee.png");
-	background-position: -5pt 7pt;
+	background-position: right -7px;
 	background-repeat: no-repeat;
-	background-size: 25pt;
+	background-size: 50pt;
 	font-size: 10pt;
 	height: 100% !important;
 	padding-top: 7pt;
 }
-
+ul.nav > li:first-child ul.dropdown-menu a:hover
+{
+	background-size: 60pt;
+}
 
 ul.nav > li:first-child+li a
 {
@@ -198,10 +208,10 @@ ul.nav > li:first-child+li a
 ul.nav > li:first-child+li+li a
 {
 	font-size: 7pt;
-	background: transparent url("media/shop.png") no-repeat scroll 9pt 7pt;
+	background: transparent url("media/shop.png") no-repeat scroll 0pt 7pt;
 	height: 20pt !important;
 	padding-top: 10pt;
-	background-size: 12pt;
+	background-size: 25px;
 }
 
 
@@ -695,7 +705,7 @@ header.navbar
 
 	text-align: center;
 	background-color: #E11;
-	color: #500;
+	color: white;
 	border-color: #500;
 }
 
@@ -891,3 +901,4 @@ div.stock
 {
 	background-color: rgb(238, 17, 17);
 }
+
