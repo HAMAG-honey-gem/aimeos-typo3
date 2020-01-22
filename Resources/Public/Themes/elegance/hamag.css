@@ -902,3 +902,8 @@ div.stock
 	background-color: rgb(238, 17, 17);
 }
 
+
+.additional-box
+{
+	display: none;
+}
