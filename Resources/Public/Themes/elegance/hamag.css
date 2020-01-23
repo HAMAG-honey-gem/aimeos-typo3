@@ -265,7 +265,8 @@ rgb(201, 91, 47)
 .footer-section h1
 , .footer-section .h1
 {
-	text-shadow:0px 1px 6px #777;
+	text-shadow:0px 0px 0px #777;
+	transition: text-shadow 0.6s ease-in-out 0s;
 }
  .footer-section h1:hover
 ,.footer-section .h1:hover
